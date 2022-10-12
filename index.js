@@ -3,6 +3,7 @@ const app = express();
 const port = 3000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const Conn = require('./db/conn');
 
 //middleware
 app.use(bodyParser.json());
